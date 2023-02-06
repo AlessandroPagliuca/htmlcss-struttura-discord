@@ -23,6 +23,12 @@ ul{
 a{
     text-decoration: none;
 }
+h1{
+    padding: 150px 0px 50px 0px;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
 /* /General */
 
 /* Utility */
@@ -44,18 +50,15 @@ a{
 .btn-white{
     background-color: var(--bg-white);
     color: var(--color-text);
-    ;
+    
 }
 .btn-size{
     border-radius: 14px;
-    font-size: 14px;
+    font-size: 1rem;
     padding:  5px 10px 5px 10px;  
     color: var(--color-text);
     
 }
-
-
-
 /* /Utility */
 
 /*header*/
@@ -68,7 +71,7 @@ a{
     background-color: var(--bg-lightblue);
     padding-top: 20px;
 }
-#jumbotron{
+#hero{
     background-image: url("../img/jumbo.png");
     min-height: 600px;
     background-size: cover;
@@ -79,6 +82,32 @@ a{
     padding-right: 40px;
 }
 
+/* section navbar */
+ .text-nav{
+    color: var(--bg-white);
+    text-align: center;
+    line-height: 1.5rem;
+ }
+ .box-header{
+    width: 35%;
+}
+.btn-position{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items:flex-end;
+    padding-top: 1.2rem;
+   
+}
+.btn-download-mac, .btn-browser{
+    font-size: 1.2rem;
+}
+.btn-browser{
+    background-color: var(--bg-dark);
+    color: var(--bg-white);
+    margin-left: 30px;
+}
+/* /section navbar*/
 
 /* /navbar */
 
@@ -92,6 +121,9 @@ a{
 
 .right{
     width: 55%;
+}
+.reverse{
+    flex-direction: row-reverse;
 }
 /* /main */
 
