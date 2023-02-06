@@ -1,0 +1,17 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root{
+    --bg-lightblue: #255ee9;
+    --bg-dark: #23272a;
+    --color-text: #000000;
+    --bg-white: #ffffff;
+    --bg-grey: #f5f5f5;
+    --bg-btn: #7289da;
+}  
+/* /General */
