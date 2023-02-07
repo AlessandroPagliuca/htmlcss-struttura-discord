@@ -47,16 +47,22 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-.btn-white{
+.btn-bg-white{
     background-color: var(--bg-white);
     color: var(--color-text);
     
+}
+.btn-color-white{
+    color: var(--bg-white);
+}
+.btn-color-dark{
+    color: var(--color-text);
 }
 .btn-size{
     border-radius: 14px;
     font-size: 1rem;
     padding:  5px 10px 5px 10px;  
-    color: var(--color-text);
+    
     
 }
 /* /Utility */
@@ -87,14 +93,17 @@ h1{
     color: var(--bg-white);
     text-align: center;
     line-height: 1.5rem;
+    font-size: 16px;
  }
  .box-header{
+    display: flex;
     width: 35%;
+    flex-direction: column;
 }
 .btn-position{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:flex-end;
     padding-top: 1.2rem;
    
@@ -102,10 +111,11 @@ h1{
 .btn-download-mac, .btn-browser{
     font-size: 1.2rem;
 }
+.btn-download-mac{
+    background-color: var(--bg-white);
+}
 .btn-browser{
     background-color: var(--bg-dark);
-    color: var(--bg-white);
-    margin-left: 30px;
 }
 /* /section navbar*/
 
